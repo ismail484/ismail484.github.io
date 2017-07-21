@@ -1,0 +1,75 @@
+html,
+body {
+    height: 100%;
+    margin: 2px;
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+    color: #56645D;
+    border-style: solid;
+    border-color: #EE9A11;
+    background-color: #6AC095;
+}
+#map-data {
+    height: 100%;
+    background-color: lightblue;
+    overflow: scroll;
+    border: 2px solid #EE9A11;
+}
+
+#search-data {
+    font-size: 14pt;
+    height: 35px;
+    width: 260px;
+}
+
+#map-elements {
+    margin: 3% 5% 5% 3%;
+    padding: 1% 2% 2% 1%;
+}
+
+#map,
+.row,
+.container-data {
+    height: 100%;
+}
+
+ul li {
+    margin: 2px;
+    padding: 1%;
+    color: green;
+    font-family: 'Khula', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+ul li:hover {
+    font-size: 23px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: red;
+}
+h2 {
+    color: #2A221C;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h3 {
+    color: #161D4E;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+h4 {
+    color: #2A221C;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
