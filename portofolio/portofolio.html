@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Mohamed Portofolio</title>
+      <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <img class="profile-avatar img-circle img-responsive" src="images/logo.jpg" alt="my Profile  image">
+            </div>
+            <div class="col-md-6 profile text-uppercase">
+               <h1 class="profile-name title-super text-thin">Mohamed  Ismail</h1>
+               <h3 class="profile-job">Front-end Web Developer</h3>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <hr>
+            </div>
+         </div>
+         <div class="row ">
+            <div class="col-md-12">
+               <picture id="banner">
+                  <source media="(min-width: 750px)" srcset="images/cover_1600_large_2x.jpg 2x, images/cover_800_large_1x.jpg" />
+                  <source media="(min-width: 500px)" srcset="images/cover-500_medium.jpg" />
+                  <img src="images/cover-300_small.jpg" alt="my profile photo">
+               </picture>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <h2 class="text-muted">Featured Work</h2>
+            </div>
+         </div>
+         <div class="row text-center">
+            <div class="col-md-4">
+               <figure>
+                  <picture>
+                     <source media="(min-width: 750px)" srcset="images/movie_trailer_1600_large_2x.jpg 2x, images/movie_trailer_800_large_1x.jpg"  />
+                     <source media="(min-width: 500px)" srcset="images/movie_trailer_500_medium.jpg" />
+                     <img src="images/movie_trailer_300_small.jpg" alt="Volt sign in old Berlin power station"
+                        class="img-responsive" data-toggle="modal" data-target="#project1">
+                  </picture>
+                  <figcaption>
+                     <h3>Movie Trailer</h3>
+                     <p><a href="https://github.com/ismail484/film-movie-trailer">Link to project</a></p>
+                  </figcaption>
+               </figure>
+            </div>
+            <div class="col-md-4">
+               <figure>
+                  <picture id="test">
+                     <source media="(min-width: 750px)" srcset="images/weather_forecast_1600_large_2x.jpg 2x, images/weather_forecast_800_large_1x.jpg"  />
+                     <source media="(min-width: 500px)" srcset="images/weather_forecast_500_medium.jpg" />
+                     <img src="images/weather_forecast_300_small.jpg" alt="Volt sign in old Berlin power station"
+                        class="img-responsive" data-toggle="modal" data-target="#project2">
+                  </picture>
+                  <figcaption>
+                     <h3>Weather Forecast</h3>
+                     <p><a href="http://mohamedcodesenjoyment.com/weather/index.php#/">Link to project</a></p>
+                  </figcaption>
+               </figure>
+            </div>
+            <div class="col-md-4">
+               <figure>
+                  <picture>
+                     <source media="(min-width: 750px)" srcset="images/customer_information_1600_large_2x.png 2x, 
+                        images/customer_information_800_large_1x.png"  />
+                     <source media="(min-width: 500px)" srcset="images/customer_information-500_medium.png" />
+                     <img src="images/customer_information_300_small.png" alt="Volt sign in old Berlin power station"
+                        class="img-responsive" data-toggle="modal" data-target="#project3">
+                  </picture>
+                  <figcaption>
+                     <h3>Customer Information system</h3>
+                     <p><a href="https://github.com/ismail484/simple-spring-client-database">Link to project</a></p>
+                  </figcaption>
+               </figure>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <hr>
+            </div>
+         </div>
+         <footer id="footer">
+            <div class="row" >
+               <div class="col-md-12" >
+                  <p>Posted by: Mohamed Ismail</p>
+                  <p>Contact information: <a href="http://mohamedcodesenjoyment.com/introduction/
+                     "> just mail me </a>.</p>
+               </div>
+            </div>
+         </footer>
+         <!-- Modal 1 -->
+         <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" >
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h4 class="modal-title" id="myModalLabel">Movie Trailer</h4>
+                  </div>
+                  <div class="modal-body">
+                     <img src="images/movie_trailer_500_medium.jpg" class="img-responsive" alt="Responsive image">
+                     This project shows my viewer trailer films <a href="https://github.com/ismail484/film-movie-trailer"  >click here</a> to see my project
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Modal 2 -->
+         <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_2" aria-hidden="true">
+            <div class="modal-dialog" >
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h4 class="modal-title" id="myModalLabel_2">Weather App</h4>
+                  </div>
+                  <div class="modal-body">
+                     <img src="images/weather_forecast_500_medium.jpg" class="img-responsive" alt="Responsive image">
+                     This project is a simple Customer infromation-CRUD using  Java Spring MVC Framework <a href="http://mohamedcodesenjoyment.com/weather/index.php#/">click here</a> to see my project
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Modal 3 -->
+         <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_3" aria-hidden="true">
+            <div class="modal-dialog" >
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h4 class="modal-title" id="myModalLabel_3">Big Data Project</h4>
+                  </div>
+                  <div class="modal-body">
+                     <img src="images/customer_information-500_medium.png" class="img-responsive" alt="Responsive image">
+                     This project is a weather application using Angular Framework  <a href="https://github.com/ismail484/simple-spring-client-database">click here</a> to see my project
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
